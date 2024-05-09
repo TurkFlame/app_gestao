@@ -1,0 +1,76 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Cinza claro */
+    color: #444; /* Cinza escuro */
+}
+
+.conteudo-pagina {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff; /* Branco */
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo-pagina h1 {
+    font-size: 36px;
+    color: #4CAF50; /* Verde */
+}
+
+.produto {
+    width: 300px;
+    border: 1px solid #ddd; /* Cinza claro */
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #4CAF50; /* Verde */
+}
+
+.produto p {
+    margin: 10px 0;
+    color: #777; /* Cinza */
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #4CAF50; /* Verde */
+    color: #fff; /* Branco */
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}

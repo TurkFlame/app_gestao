@@ -1,0 +1,109 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Cinza claro */
+    color: #444; /* Cinza escuro */
+}
+
+.conteudo-destaque {
+    max-width: 1400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda, .direita {
+    flex: 1;
+}
+
+.informacoes {
+    background-color: #4CAF50; /* Verde */
+    color: #fff; /* Branco */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.informacoes h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.informacoes p {
+    margin-bottom: 30px;
+}
+
+.chamada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.chamada img {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.video {
+    margin-top: 30px;
+}
+
+.video img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.direita .contato {
+    background-color: #4CAF50; /* Verde */
+    color: #fff; /* Branco */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.direita .contato h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.direita .contato p {
+    margin-bottom: 30px;
+}
+
+/* Estilo para o formulário de contato */
+form {
+    border: 2px solid #4CAF50; /* Verde */
+    padding: 30px;
+    border-radius: 15px;
+}
+
+form input[type="text"], form textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd; /* Cinza claro */
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    padding: 12px 24px;
+    background-color: #4CAF50; /* Verde */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #388e3c; /* Verde mais escuro */
+}

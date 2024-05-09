@@ -1,0 +1,66 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Cinza claro */
+    color: #444; /* Cinza escuro */
+}
+
+.conteudo-pagina {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff; /* Branco */
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo-pagina h1 {
+    font-size: 36px;
+    color: #4CAF50; /* Verde */
+}
+
+.informacao-pagina p {
+    margin-bottom: 20px;
+    color: #777; /* Cinza */
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #4CAF50; /* Verde */
+    color: #fff; /* Branco */
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.redes-sociais, .area-contato, .localizacao {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+}
+
+.redes-sociais h2, .area-contato h2, .localizacao h2 {
+    margin-bottom: 20px;
+    color: #fff; /* Branco */
+}
+
+.redes-sociais img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.localizacao img {
+    width: 120px;
+}
