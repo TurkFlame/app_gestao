@@ -1,8 +1,8 @@
-<!-- @extends('site.layouts.basico')
+@extends('site.layouts.basico')
 
 @section('titulo', 'Home')
 
-@section('conteudo') -->
+@section('conteudo')
 <!DOCTYPE html>
 <html lang="en">
 <head>

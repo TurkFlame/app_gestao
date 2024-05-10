@@ -1,9 +1,6 @@
-    <!-- Puxa o layout básico 
+
 @extends('site.layouts.basico')
-    Puxa o título do controller
-@section('titulo', $titulo)
-    Criamos o conteudo 
-@section('conteudo') -->
+@section('conteudo')
 <!DOCTYPE html>
 <html lang="en">
 <head>

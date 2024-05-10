@@ -1,7 +1,6 @@
 <!-- @extends('site.layouts.basico')
 
 @section('titulo', 'Sobre Nós')
-
 @section('conteudo') -->
 <!DOCTYPE html>
 <html lang="en">
